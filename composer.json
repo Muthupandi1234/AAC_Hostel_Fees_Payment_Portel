@@ -1,0 +1,19 @@
+{
+    "name": "arul-anandar/hostel-fees-portal",
+    "description": "Hostel Fees Payment Portal with Razorpay Integration",
+    "type": "project",
+    "require": {
+        "php": ">=7.4",
+        "razorpay/razorpay": "^2.8",
+        "dompdf/dompdf": "^2.0",
+        "tecnickcom/tcpdf": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Razorpay\\": "vendor/razorpay/razorpay/src/"
+        }
+    },
+    "config": {
+        "disable-tls": true
+    }
+}
